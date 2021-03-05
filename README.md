@@ -6,14 +6,20 @@
 
 ## 使い方
 
-```
-% npm i
-```
+* NPM インストールする。
 
-```
-export SENDGRID_API_KEY={APIキーをセットしてください}
-```
+    ```
+    % npm i
+    ```
 
-```
-% node app
-```
+* 環境変数に SendGrid の APIキーをセットする。
+
+    ```
+    % export SENDGRID_API_KEY={APIキーをセットしてください}
+    ```
+
+* 実行する。(メール送信)
+  
+    ```
+    % node app
+    ```
